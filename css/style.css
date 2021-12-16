@@ -13,6 +13,7 @@ html,body{
  width: 100%;
  max-width: 1400px;
  margin:0 auto;
+ 
 }
 
 .clear{
@@ -193,7 +194,21 @@ section.sessao1 .container{
 	margin-top:8px;
 }
 
-a.btn1-texto{
+.btn1-texto{
+	background-color: #FF703D;
+	width: 165px;
+	height: 44px;
+	font-size: 13px;
+	color: white;
+	cursor: pointer;
+	margin-top:30px;
+	text-align: center;
+	line-height: 44px;
+	border-radius: 50px;
+	border-width: 30px;
+	
+}
+.btn2-texto{
 	background-color: #FF703D;
 	width: 165px;
 	height: 44px;
@@ -212,7 +227,7 @@ a.btn1-texto{
    max-width: 444.6px;
    height: 200px;
    background-size: cover;
- margin-top: 400px;
+ margin-top: 399px;
   display: inline;
 }
  .p-doxesque{
@@ -234,11 +249,11 @@ a.btn1-texto{
 	border-radius: 30px;
 }
 
-.mapouter{
+/*.mapouter{
 	width: 300px;
 	height: 300px;
 	background-size: cover;
-}
+}*/
 
 .device-sessao1{
 	float: left;
@@ -292,12 +307,16 @@ a.btn1-texto{
 	background: #100d2c;
 }
 
+/*.wraper-part1{
+	max-width: 600px;
+	float: right;
+	padding:0 30px;
+}*/
 .wraper-part1{
 	max-width: 600px;
 	float: right;
 	padding:0 30px;
 }
-
 .part1 h2{
 	font-weight: 300;
 	font-style: italic;
@@ -445,7 +464,7 @@ section.sessao4{
 	margin-top:15px;
 	border-radius: 30px;
 }
-
+/*
 .map-wraper{
 	float: left;
 	width: 50%;
@@ -482,7 +501,7 @@ section.sessao4{
 	background: white;
 	border:5px solid rgb(200,200,200);
 }
-
+*/
 /***/
 
 
@@ -524,6 +543,31 @@ footer p:nth-of-type(2){
 		color: white;
 		margin-top:10px;
 	}
+}
+.map-wraper{
+	float: none;
+	width: 100%;
+	padding:0 8%;
+	margin-top:40px;
+}
+
+
+.map-wraper3{
+	margin-top:10px;
+	width: 100%;
+	padding-top: 100%;
+	display: inline-block;
+	max-width: none;
+	position: relative;
+}
+
+.map-wraper2{
+	position: absolute;
+	left: 0;
+	top:0;
+	width: 100%;
+	height: 100%;
+	padding-top:0;
 }
 
 @media screen and (max-width: 768px){
@@ -600,13 +644,9 @@ section.sessao4 .container{
 	float: none;
 }
 
-.map-wraper{
-	float: none;
-	width: 100%;
-	padding:0 8%;
-	margin-top:40px;
-}
 
+}
+/*
 
 .map-wraper3{
 	margin-top:10px;
@@ -633,8 +673,33 @@ section.sessao4 .container{
 	height: 100%;
 	padding-top:0;
 }
-
+*/
+.map-wraper{
+	float: none;
+	width: 100%;
+	padding:0 8%;
+	margin-top:40px;
 }
+
+
+.map-wraper3{
+	margin-top:10px;
+	width: 100%;
+	padding-top: 100%;
+	display: inline-block;
+	max-width: none;
+	position: relative;
+}
+
+.map-wraper2{
+	position: absolute;
+	left: 0;
+	top:0;
+	width: 100%;
+	height: 100%;
+	padding-top:0;
+}
+
 
 @media screen and (max-width: 580px){
 	
@@ -645,7 +710,7 @@ section.sessao4 .container{
 		margin-top:60px;
 		padding-left: 95px;
 		color: white;
-		font-size: 15px;
+		font-size: 10px;
 		margin-left: 20px;
 	
 	}
@@ -699,21 +764,7 @@ section.sessao4 .container{
 	min-height: 90vh;
 	padding:40px 2%;
 }
-.map-wraper{
-	float: none;
-	width: 100%;
-	padding:0 8%;
-	margin-top:40px;
-}
-.img-sistemas img{
-	width: 100%;
-	max-width: 60px;
-	height: 100px;
-	background-size: cover;
-   display: inline;
-   margin-left: 1px;
- }
- .p-doxesque{
+.p-doxesque{
 	text-align: center;
 	font-size: 15px;
 	margin-top: 200px;
@@ -730,4 +781,25 @@ section.sessao4 .container{
 	cursor: pointer;
 	background-color: #a996c7;
 	border-radius: 30px;
+}
+.img-sistemas img{
+	width: 100%;
+	height: 140px;
+	margin-bottom:1px;
+	padding-bottom: 1px;
+   display: inline-block;
+   margin-top: 15px;
+   position:relative;
+   margin-left: 0.1px;
+}
+}
+
+
+
+ .p-doxesque{
+	text-align: center;
+	font-size: 15px;
+	margin-top: 200px;
+
+	
 }
