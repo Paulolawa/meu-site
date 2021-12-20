@@ -7,3 +7,8 @@
         });
     });
 
+    $(document).ready(function(){
+        $('.btn2-texto').click(function(){
+            window.location="https://linkfly.to/pastes";
+        });
+    });
